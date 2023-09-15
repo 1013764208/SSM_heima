@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
+
+
+    <bean id="bookDao" class="com.item.dao.impl.BookDaoImpl">
+        <property name="array">
+            <array>
+                <value>100</value>
+                <value>100</value>
+                <value>100</value>
+            </array>
+        </property>
+
+        <property name="list">
+            <list>
+                <value>a</value>
+                <value>zhang</value>
+                <value>bo</value>
+            </list>
+        </property>
+
+
+        <property name="map">
+            <map>
+                <entry key="country" value="china"/>
+                <entry key="years" value="18"/>
+            </map>
+        </property>
+
+        <property name="properties">
+            <props>
+                <prop key="country">china</prop>
+                <prop key="years">18</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
