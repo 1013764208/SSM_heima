@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_15_spring_mybatis_2/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_15_spring_mybatis_2/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_17_apo_demp/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_18_aop_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_22_aop_advice_data/pom.xml" />
+        <option value="$PROJECT_DIR$/../spring_24_case_transfer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/.." />
+  </component>
+</project>
