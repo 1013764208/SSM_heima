@@ -1,2 +1,12 @@
 0:0:0:0:0:0:0:1 - - [22/Sep/2023:10:07:02 +0800] "GET /commonParam?name=itcast HTTP/1.1" 500 4891 http-bio-80-exec-2 143
 0:0:0:0:0:0:0:1 - - [22/Sep/2023:10:08:31 +0800] "GET /commonParam?name=itcast HTTP/1.1" 200 25 http-bio-80-exec-2 179
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:10:09:18 +0800] "GET /commonParam?name=itcast&age=15 HTTP/1.1" 200 25 http-bio-80-exec-2 153
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:10:13:20 +0800] "POST /commonParam HTTP/1.1" 200 25 http-bio-80-exec-5 4
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:10:17:44 +0800] "POST /commonParam HTTP/1.1" 200 25 http-bio-80-exec-8 3
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:10:32:40 +0800] "GET /pojoParam?name=itcase&age=15 HTTP/1.1" 200 23 http-bio-80-exec-10 18
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:10:36:30 +0800] "GET /pojoContainPojoParam?name=itcase&age=15&address.city=beijing&address.province=beijing HTTP/1.1" 200 36 http-bio-80-exec-4 9
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:10:39:12 +0800] "GET /arrayParam?likes=hame&likes=travel HTTP/1.1" 200 24 http-bio-80-exec-7 4
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:11:01:07 +0800] "GET /listParamForJson HTTP/1.1" 200 39 http-bio-80-exec-1 139
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:16:10:11 +0800] "GET /dataParam?data=2088/08/08&data1=2088-08-01&2099/09/21 HTTP/1.1" 200 23 http-bio-80-exec-3 207
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:16:10:55 +0800] "GET /dataParam?data=2088/08/08&data1=2088-08-01&data2=2099/09/21 HTTP/1.1" 200 23 http-bio-80-exec-3 5
+0:0:0:0:0:0:0:1 - - [22/Sep/2023:16:11:31 +0800] "GET /dataParam?data=2088/08/08&data1=2088-08-01&data2=2099/09/21%2012:12:43 HTTP/1.1" 200 23 http-bio-80-exec-3 5
