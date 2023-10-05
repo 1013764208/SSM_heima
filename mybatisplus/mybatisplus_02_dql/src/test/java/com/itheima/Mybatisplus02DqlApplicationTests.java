@@ -23,7 +23,7 @@ class Mybatisplus02DqlApplicationTests {
     void testGetAll() {
         //方式一：按条件查询
 //        QueryWrapper qw = new QueryWrapper();
-//        qw.lt("age",18);
+//        qw.lt("age",18);  // lt 小于
 //        List<User> userList = userDao.selectList(qw);
 //        System.out.println(userList);
 

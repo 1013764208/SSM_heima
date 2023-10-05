@@ -16,6 +16,7 @@ class Mybatisplus01QuickstartApplicationTests {
     @Autowired
     private UserDao userDao;
 
+    // 插入
     @Test
     void testSave(){
         User user = new User();
@@ -26,6 +27,7 @@ class Mybatisplus01QuickstartApplicationTests {
         userDao.insert(user);
     }
 
+    // 删除
     @Test
     void testDelete(){
         userDao.deleteById(1401856123725713409L);
@@ -53,10 +55,11 @@ class Mybatisplus01QuickstartApplicationTests {
         System.out.println(userList);
     }
 
+    // 分页查询
     @Test
     void testGetByPage(){
-        //IPage对象封装了分页操作相关的数据
-        IPage page  = new Page(2,3);
+        // IPage对象封装了分页操作相关的数据
+        IPage page  = new Page(2,3);  // 当前页码值，每页显示数
         userDao.selectPage(page,null);
         System.out.println("当前页码值："+page.getCurrent());
         System.out.println("每页显示数："+page.getSize());

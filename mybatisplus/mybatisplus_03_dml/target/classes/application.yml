@@ -4,8 +4,8 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/mybatisplus_db?serverTimezone=UTC
-    username: root
-    password: root
+    username: hxsnn
+    password: 123456
   main:
     banner-mode: off
 # mp日志
@@ -16,7 +16,7 @@ mybatis-plus:
     banner: false
     db-config:
       id-type: assign_id
-      table-prefix: tbl_
+#      table-prefix: tbl_
       # 逻辑删除字段名
       logic-delete-field: deleted
       # 逻辑删除字面值：未删除为0

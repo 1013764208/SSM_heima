@@ -16,8 +16,8 @@ public class CodeGenerator {
         DataSourceConfig dataSource = new DataSourceConfig();
         dataSource.setDriverName("com.mysql.cj.jdbc.Driver");
         dataSource.setUrl("jdbc:mysql://localhost:3306/mybatisplus_db?serverTimezone=UTC");
-        dataSource.setUsername("root");
-        dataSource.setPassword("root");
+        dataSource.setUsername("hxsnn");
+        dataSource.setPassword("123456");
         autoGenerator.setDataSource(dataSource);
 
         //设置全局配置
